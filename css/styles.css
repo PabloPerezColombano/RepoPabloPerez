@@ -1,0 +1,571 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    @font-face {
+        font-family: "Daughter";
+        src: url("../Fonts/Daughter.ttf");
+        font-family: "Austein";
+        src: url("../Fonts/Austein.ttf");
+        font-family: "AlteBold";
+        src: url("../Fonts/Altebold.ttf");
+    }
+    body {
+    font-size: 8px;
+    background-image: url("../img/fondo.jpg");
+    background-size: contain;
+    justify-content: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    }
+    .container {
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 12% 35% 35% 18%;
+    max-width: 99%;
+    max-height: 99%;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+    grid-row-gap: 0.3em;
+    grid-column-gap: 0.3em;
+    justify-content: center;
+    grid-template-areas: "Header Header"
+    "Galeria Empresa"
+    "Contacto Empresa"
+    "Footer Footer";
+    }
+    
+        
+    .titulo {
+    font-size: 1.1em;
+    text-align: center;
+    padding: 1.5em 3em 0em 0em;
+    }
+    .cabecera {
+    font-size: 2em;
+    height:8vh;
+    justify-content: center;
+    padding: 0em 0em;
+    }
+    .caja {
+    height: 100%;
+    width: 100%;
+    justify-content: stretch;
+    border: 0.2em solid black;
+    border-radius: 0.2em;
+    background-color:rgb(230, 206, 176);
+    }
+    header { 
+    display: flex;
+    flex-direction: column;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding: 0px;
+    }
+    .navEnlace {
+    display: inline-block;
+    text-align: center;
+    background-color: lightslategrey;
+    color: rgb(245, 237, 191);
+    border:solid black;
+    border-radius: 6%;
+    padding: 0.5em;
+    margin:0em;
+    height:max-content;
+    text-decoration: none;
+    font-size: 1em;
+    }
+    .navEnlace:hover {
+    background:rgb(99, 113, 139);
+    }
+    nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items:center;
+    }
+    .logo {
+    margin:0.2em;
+    width: 8em;
+    }
+    h2 {
+    text-align: center;
+    background-image: url("../img/tablamadera.jpg");
+    background-size: cover;
+    padding: 0.4em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    border-bottom: 0.3em solid rgb(5, 5, 8)
+    }
+    .c1 {
+    grid-area: Header; 
+    background-image: url("../img/puentefoto.jpg");
+    background-size: cover ;
+    }
+    .c2{
+     grid-area: Contacto;
+    font-size: 1em;
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    }
+    .c3{ 
+    grid-area: Empresa; 
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    }
+    .c4{
+     grid-area: Footer;
+    }
+    .c5{ 
+    grid-area: Galeria;
+    }
+    .galeria img {
+        display: inline-block;
+        justify-content: stretch;
+        width: 46%;
+    }
+    img {
+    box-shadow: 0.6em;
+    width: 90%;
+    height: 90%;
+    border: solid black 1px;
+    border-radius: 4px;
+    background-color: white;
+    padding: 0.4em;
+    margin: 0.2em;
+    box-shadow: 0.3em 0.3em 0.3em;
+    }
+    .ch {
+    display: flex;
+    flex-direction: row;
+    }
+    footer {
+    display:flex;
+    justify-self:stretch;
+    flex-direction: column;
+    align-items: center;
+    }
+    .fotos {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    width:96%;
+    margin: 2em 0em;
+    }
+    .fotos img {
+    margin: 0em;
+    display: inline-block;
+        justify-content: stretch;
+        width: 46%;
+    }
+    .formulario {
+    font-size: 1.1em;
+    display: flex;
+    justify-content: strech; 
+    text-align: center;
+    flex-direction: column;
+    }
+    select {
+    font-size: 0.8em;
+    }
+    .footerSombra {
+    display: flex;
+    width: 190px;
+    height: 20px;
+    }
+    .direccion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    }
+    iframe {
+    max-width: 90%;
+    max-height: 45%;
+    justify-self: center;
+    align-self: center;
+    border:  solid black 1px;
+    }
+    input { font-size: 1em;
+    }
+    p { 
+    background-color: rgb(206, 199, 198);
+    text-align: center;
+    padding: 1em;
+    }
+
+   .containerContacto{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 15% 35% 35% 15%;
+        max-width: 99%;
+        max-height: 99%;
+        margin: 0;
+        padding: 1em;
+        text-align: center;
+        grid-row-gap: 0.3em;
+        grid-column-gap: 0.3em;
+        justify-content: center;
+        grid-template-areas: "Header"
+        "Formu"
+        "Mapita"
+        "Footer";
+   }
+   .d1 {
+       grid-area: Header;
+       background-image: url("../img/puentefoto.jpg");
+       background-size: cover ;
+   }
+   .d2 {
+    grid-area: Formu;
+    padding: 0.5em 0.5em;
+    
+    }
+    .d3 {
+    grid-area: Mapita;
+    }
+    .d4 {
+    grid-area: Footer;
+    }
+    .formulario {
+        font-size: 1.1em;
+        display: flex;
+        justify-content: strech; 
+        text-align: center;
+        flex-direction: column;
+        }
+
+
+    .containerRealizados {
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows: 15% 70% auto;
+        max-width: 99%;
+        max-height:99%;
+        margin: 0;
+        padding: 1em;
+        text-align: center;
+        grid-row-gap: 0.3em;
+        grid-column-gap: 0.3em;
+        justify-content: center;
+        grid-template-areas: "Header"
+        "Realizados"
+        "Footer";
+        font-size: 14px;
+        }
+        .f1 {
+            grid-area: Header; 
+            background-image: url("../img/puentefoto.jpg");
+            background-size: cover ;
+        }
+        .f2 {
+         grid-area: Realizados;
+         padding: 0.5em 0.5em;
+         }
+         .f3 {
+         grid-area: Footer;
+         }
+         .containerReferencias {
+            display: grid;
+            grid-template-columns:100%;
+            grid-template-rows: 15% 70% auto;
+            max-width: 99%;
+            max-height:99%;
+            margin: 0;
+            padding: 1em;
+            text-align: center;
+            grid-row-gap: 0.3em;
+            grid-column-gap: 0.3em;
+            justify-content: center;
+            grid-template-areas: "Header"
+            "Realizados"
+            "Footer";
+            font-size: 14px;
+         }
+    .e1 {
+        grid-area: Header; 
+        background-image: url("../img/puentefoto.jpg");
+        background-size: cover ;
+    }
+    .e2 {
+     grid-area: Realizados;
+     padding: 0.5em 0.5em;
+     }
+     .e3 {
+     grid-area: Footer;
+     }
+
+     .containerEmpresa {
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows: 15% 70% auto;
+        max-width: 99%;
+        max-height:99%;
+        margin: 0;
+        padding: 1em;
+        text-align: center;
+        grid-row-gap: 0.3em;
+        grid-column-gap: 0.3em;
+        justify-content: center;
+        grid-template-areas: "Header"
+        "Empresa"
+        "Footer";
+        font-size: 14px;
+     }
+     .g1 {
+        grid-area: Header; 
+        background-image: url("../img/puentefoto.jpg");
+        background-size: cover ;
+    }
+    .g2 {
+     grid-area: Realizados;
+     padding: 0.5em 0.5em;
+     }
+     .g3 {
+     grid-area: Footer;
+     }
+    @media screen and (min-width:480px) {
+    * {
+    margin: 0;
+    padding: 0;        
+    box-sizing: border-box;
+    }
+    body {
+    font-size: 12px;
+    }
+    .container {
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 12% 35% 35% 18%;
+    max-width: 99%;
+    max-height: 99%;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+    grid-row-gap: 0.3em;
+    grid-column-gap: 0.3em;
+    background-color: rgb(230, 206, 176);
+    justify-content: center;
+    grid-template-areas: "Header Header"
+    "Galeria Empresa"
+    "Contacto Empresa"
+    "Footer Footer";
+    }
+
+    .containerContacto{
+        display: grid;
+        grid-template-columns:50% 50%;
+        grid-template-rows: 15% 65% auto;
+        max-width: 99%;
+        max-height:99%;
+        margin: 0;
+        padding: 1em;
+        text-align: center;
+        grid-row-gap: 0.3em;
+        grid-column-gap: 0.3em;
+        justify-content: center;
+        grid-template-areas: "Header Header"
+        " Formu Mapita"
+        "Footer Footer";
+        }
+
+    @media screen and (min-width:600px){
+    body { font-size: 14px;
+    }
+    .container {
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 12% 35% 35% 18%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+    grid-row-gap: 0.3em;
+    grid-column-gap: 0.3em;
+    justify-content: center;
+    grid-template-areas: "Header Header"
+    "Galeria Empresa"
+    "Contacto Empresa"
+    "Footer Footer";
+    }
+    .containerContacto{
+        display: grid;
+        grid-template-columns:50% 50%;
+        grid-template-rows: 15% 65%;
+        max-width: 99%;
+        max-height:99%;
+        margin: 0;
+        padding: 1em;
+        text-align: center;
+        grid-row-gap: 0.3em;
+        grid-column-gap: 0.3em;
+        justify-content: center;
+        grid-template-areas: "Header Header"
+        "Formu Mapita"
+        "Footer Footer";
+        }
+
+    @media screen and (min-width:768px){
+    body {
+    font-size: 16px;
+    background-image: url("../img/fondo.jpg");
+    background-size: contain;
+    justify-content: center;
+    }
+    .container {
+    display: grid;
+    grid-template-columns: 28% 24% 24% 24%;
+    grid-template-rows: 5% 40% 45% 10%;
+    width: 99%;
+    height: 99%;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+    row-gap: 1em;
+    column-gap: 0.05em;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas: "Header Header Header Header"
+    "Empresa Empresa Empresa Contacto"
+    "Galeria Galeria Galeria Galeria"
+    "Footer Footer Footer Footer";
+    }
+    .c2 {display: flex;
+    justify-content: stretch;
+    align-content: space-around;
+    }
+    .galeria img {
+    width: 20%;
+    height: auto;
+    }
+    nav {
+    display:flex;
+    flex-wrap: wrap;
+    }
+    .navEnlace {
+    padding: 0.3em;
+    margin: 0.2em;
+    font-size: 1.2em;
+    }
+    .logo {
+    width: 20%;
+    margin: 0.6em ;
+    }
+    .titulo {
+    font-size: 1.5em;
+    text-align: right;
+    padding: 0%;
+    margin-right: 2.6em;
+    }
+    iframe {
+    max-width: 100%;
+    max-height: 40%; 
+    margin:0px;
+    }
+    .fotos {
+    display: inline-block;
+    }
+    .fotos img {
+    width: 30%;
+    justify-self: center;
+    align-self: center; 
+    margin:0%
+    }
+
+    .containerContacto {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 3fr 1fr;
+        max-width: 99%;
+        max-height:99%;
+        margin: 0;
+        padding: 1em;
+        text-align: center;
+        grid-row-gap: 0.3em;
+        grid-column-gap: 0.3em;
+        justify-content: center;
+        grid-template-areas: "Header Header"
+        " Formu Mapita"
+        "Footer Footer";
+        }
+    
+    @media screen and (min-width:1024px)
+    {
+    body {
+    font-size: 17px; }
+    
+    .container {
+    display: grid;
+    grid-template-columns: 20% 30% 30% 18%;
+    grid-template-rows: 5% 35% 35% 15%;
+    width: 99%;
+    height: 99%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    row-gap: 1em;
+    column-gap: 0.05em;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas: "Header Header Header Header"
+    "Galeria Empresa Empresa Contacto"
+    "Galeria Empresa Empresa Contacto"
+    "Footer Footer Footer Footer";
+    }
+    .cabecera {
+        font-size: 2.5em;
+    }
+    .navEnlace {
+        font-size:1.6em;
+        margin: 0em;
+    
+    }
+    iframe {
+    max-width: 100%;
+    max-height: 60%; 
+    margin:0px;
+    }
+    .galeria img {
+    width: 40%;
+    height: auto;
+    }
+    
+    }
+
+    @media screen and (min-width:1200px) {
+    body{font-size: 18px;
+    }
+    .container {
+    display: grid;
+    grid-template-columns: 20% 30% 30% 18%;
+    grid-template-rows: auto 35% 35% auto;
+    width: 99%;
+    height: 99%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    row-gap: 1em;
+    column-gap: 0.05em;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas: "Header Header Header Header"
+    "Galeria Empresa Empresa Contacto"
+    "Galeria Empresa Empresa Contacto"
+    "Footer Footer Footer Footer";
+    }
+    .cabecera {
+        font-size: 3em;
+    }
+    .navEnlace {
+        font-size:1.8em;
+        margin: 0em;
+        padding: 0.6em 0.3em;
+    }
