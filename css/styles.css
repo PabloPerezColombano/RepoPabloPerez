@@ -178,7 +178,13 @@
     }
     ul li {
     text-align: center;
-    margin: 1em;
+    margin-right: 1em;
+    }
+    .ulReferencias {
+        margin-right: 1.5em;
+    }
+    .olProyectos {
+        margin-right: 1.5em;
     }
     .direccion {
     display: flex;
