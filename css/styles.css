@@ -102,13 +102,7 @@
             opacity: 1;
         }
     }
-    .logo {
-    margin:0.2em;
-    width: 8em;
-    animation-name: animation;
-    animation-duration: 1s;
-    position:relative;
-    }
+    
     h2 {
     text-align: center;
     background-image: url("../img/tablamadera.jpg");
@@ -214,10 +208,12 @@
     body {
     font-size: 12px;
     }
-
+    }
     @media screen and (min-width:600px){
     body { font-size: 14px;
     }
+    }
+
     @media screen and (min-width:768px){
     body {
     font-size: 16px;
@@ -259,6 +255,7 @@
     align-self: center; 
     margin:0%
     }
+    }
 
     @media screen and (min-width:1024px)
     {
@@ -295,4 +292,5 @@
     padding: 0.6em 0.3em;
     }
     }
-    
+
+

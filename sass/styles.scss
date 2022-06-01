@@ -1,0 +1,45 @@
+@import 'header';
+@import "footer";
+@import "tipografias";
+@import "variables";
+
+
+    
+  .fotos {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    width: 96%;
+    margin: 2em 0em;
+    img {
+      margin: 0em;
+      display: inline-block;
+      justify-content: stretch;
+      width: 46%;
+    }
+  } 
+  .galeria img {
+    display: inline-block;
+    justify-content: stretch;
+    width: 46%;
+    } 
+  img {
+    width: 90%;
+    height: 90%;
+    border: solid black 1px;
+    border-radius: 4px;
+    background-color: white;
+    padding: 0.4em;
+    margin: 0.2em;
+    box-shadow: 0.3em 0.3em 0.3em;}
+ 
+  .fondo {
+    border: 0.2em solid rgb(245, 21, 21);
+    border-radius: 0.2em;
+   background-color:$salmon;
+  }
+
+
+  
+
