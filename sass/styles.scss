@@ -4,7 +4,50 @@
 @import "variables";
 
 
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../img/fondo.jpg");
+  background-size: contain;
+  justify-content: center;
+  
+
+  p {
+    background-color: rgb(206, 199, 198);
+    text-align: center;
+    padding: 1em;
+  }
+  .formulario {
+    display: flex;
+    justify-content: strech;
+    text-align: center;
+    flex-direction: column;
+  }
+  ul {
+    margin-right: 1.5em;
+    li {
+      text-align: center;
+      margin-right: 1em;
+    }
+  }
+  .direccion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  h2 h3 {
+    text-align: center;
+    background-image: url("../img/tablamadera.jpg");
+    background-size: cover;
+    padding: 0.2em;
+    margin: 0.5em 0em 0.5em 0em;
+    border-bottom: 0.3em solid rgb(5, 5, 8);
+  }
+
   .fotos {
     display: flex;
     justify-items: center;
@@ -41,5 +84,5 @@
   }
 
 
-  
+}
 
