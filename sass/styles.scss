@@ -14,6 +14,7 @@ body {
   background-size: contain;
   justify-content: center;
 
+
   p {
     background-color: rgb(206, 199, 198, 0.7);
     text-align: center;
@@ -68,6 +69,9 @@ body {
       width: 46%;
     }
   }
+  .galeria {
+    justify-content: stretch;
+  }
   .galeria img {
     display: inline-block;
     justify-content: stretch;
@@ -96,8 +100,8 @@ body {
     box-sizing: border-box;
   }
   body {
-    font-size: 12px;
-  }
+    font-size: 10px;
+}
 }
 @media screen and (min-width: 600px) {
   body {
@@ -107,7 +111,7 @@ body {
 @media screen and (min-width: 768px) {
   body {
     font-size: 16px;
-  }
+}
 }
 @media screen and (min-width: 1024px) {
   body {
@@ -117,5 +121,6 @@ body {
 @media screen and (min-width: 1200px) {
   body {
     font-size: 18px;
-  }
+}
+  
 }

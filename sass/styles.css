@@ -1,5 +1,6 @@
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 8px;
 }
 body header {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -11,12 +12,88 @@ body header .titulo {
 body header .titulo .cabecera {
   font-size: 2em;
 }
-body header .titulo .navEnlace {
-  font-size: 1.8em;
+body header nav .divNav .navEnlace {
+  font-size: 0.7em;
+}
+@media screen and (min-width: 480px) {
+  body header nav .divNav .navEnlace {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 600px) {
+  body header nav .divNav .navEnlace {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 768px) {
+  body header nav .divNav .navEnlace {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body header nav .divNav .navEnlace {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body header nav .divNav .navEnlace {
+    font-size: 1.8em;
+  }
+}
+@media screen and (min-width: 480px) {
+  body h2 {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 600px) {
+  body h2 {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 768px) {
+  body h2 {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body h2 {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body h2 {
+    font-size: 1.8em;
+  }
+}
+@media screen and (min-width: 480px) {
+  body h3 {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 600px) {
+  body h3 {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 768px) {
+  body h3 {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body h3 {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body h3 {
+    font-size: 1.8em;
+  }
 }
 
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 8px;
 }
 body header {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -28,8 +105,83 @@ body header .titulo {
 body header .titulo .cabecera {
   font-size: 2em;
 }
-body header .titulo .navEnlace {
-  font-size: 1.8em;
+body header nav .divNav .navEnlace {
+  font-size: 0.7em;
+}
+@media screen and (min-width: 480px) {
+  body header nav .divNav .navEnlace {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 600px) {
+  body header nav .divNav .navEnlace {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 768px) {
+  body header nav .divNav .navEnlace {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body header nav .divNav .navEnlace {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body header nav .divNav .navEnlace {
+    font-size: 1.8em;
+  }
+}
+@media screen and (min-width: 480px) {
+  body h2 {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 600px) {
+  body h2 {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 768px) {
+  body h2 {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body h2 {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body h2 {
+    font-size: 1.8em;
+  }
+}
+@media screen and (min-width: 480px) {
+  body h3 {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 600px) {
+  body h3 {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 768px) {
+  body h3 {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body h3 {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body h3 {
+    font-size: 1.8em;
+  }
 }
 
 header {
@@ -121,6 +273,7 @@ header nav {
   justify-content: space-evenly;
   align-items: flex-end;
   justify-items: center;
+  margin-top: 4em;
 }
 header nav .divNav {
   width: 100%;
@@ -133,36 +286,91 @@ header nav .divNav {
 header nav .divNav .navEnlace {
   display: inline-block;
   padding: 0.3em;
-  margin: 0.2em;
+  margin: 0.05em;
   text-align: center;
   /*background-color: $grisOscuro;*/
   opacity: 1;
   color: rgb(245, 237, 191);
   /*border: outset black;
-  border-radius: 6%;*/
+    border-radius: 6%;*/
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   text-decoration: none;
   transition: transform 1s;
 }
+@media screen and (min-width: 480px) {
+  header nav .divNav .navEnlace {
+    margin: 0.5em;
+  }
+}
+@media screen and (min-width: 600px) {
+  header nav .divNav .navEnlace {
+    margin: 0.2em;
+  }
+}
+@media screen and (min-width: 768px) {
+  header nav .divNav .navEnlace {
+    margin: 0.2em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header nav .divNav .navEnlace {
+    margin: 0.2em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  header nav .divNav .navEnlace {
+    margin: 0.2em;
+  }
+}
 header nav .divNav .navEnlace:hover {
   color: white;
-  background-color: rgb(99, 113, 139);
   scale: 1.15;
 }
 header nav .logo {
-  margin: 0.2em;
-  width: 16em;
+  margin: 0em;
+  width: 8em;
   -webkit-animation-name: animation;
           animation-name: animation;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   position: relative;
 }
+@media screen and (min-width: 480px) {
+  header nav .logo {
+    margin: 0.2em;
+    width: 10em;
+  }
+}
+@media screen and (min-width: 600px) {
+  header nav .logo {
+    margin: 0.2em;
+    width: 12em;
+  }
+}
+@media screen and (min-width: 768px) {
+  header nav .logo {
+    margin: 0.2em;
+    width: 15em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header nav .logo {
+    margin: 0.2em;
+    width: 16em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  header nav .logo {
+    margin: 0.2em;
+    width: 18em;
+  }
+}
 
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 8px;
 }
 body header {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -174,8 +382,83 @@ body header .titulo {
 body header .titulo .cabecera {
   font-size: 2em;
 }
-body header .titulo .navEnlace {
-  font-size: 1.8em;
+body header nav .divNav .navEnlace {
+  font-size: 0.7em;
+}
+@media screen and (min-width: 480px) {
+  body header nav .divNav .navEnlace {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 600px) {
+  body header nav .divNav .navEnlace {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 768px) {
+  body header nav .divNav .navEnlace {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body header nav .divNav .navEnlace {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body header nav .divNav .navEnlace {
+    font-size: 1.8em;
+  }
+}
+@media screen and (min-width: 480px) {
+  body h2 {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 600px) {
+  body h2 {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 768px) {
+  body h2 {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body h2 {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body h2 {
+    font-size: 1.8em;
+  }
+}
+@media screen and (min-width: 480px) {
+  body h3 {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 600px) {
+  body h3 {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 768px) {
+  body h3 {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body h3 {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body h3 {
+    font-size: 1.8em;
+  }
 }
 
 footer {
@@ -260,6 +543,9 @@ body .fotos img {
   justify-content: stretch;
   width: 46%;
 }
+body .galeria {
+  justify-content: stretch;
+}
 body .galeria img {
   display: inline-block;
   justify-content: stretch;
@@ -287,7 +573,7 @@ body .fondo {
   }
 
   body {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 600px) {

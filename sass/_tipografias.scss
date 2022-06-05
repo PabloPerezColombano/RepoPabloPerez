@@ -2,6 +2,7 @@
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  font-size: 8px;
 
 header {
 font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -12,12 +13,68 @@ font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     .cabecera {
       font-size: 2em;
     }
-    .navEnlace {
-    font-size: 1.8em;
+    
+    
+  }
+  nav {
+    .divNav {
+      .navEnlace {
+        font-size: 0.7em;
+    
+        @media screen and (min-width: 480px) {
+        font-size: 1em;
+        }
+        @media screen and (min-width: 600px) {
+        font-size: 1.2em;
+        }
+        @media screen and (min-width: 768px) {
+        font-size: 1.4em;
+        }
+        @media screen and (min-width: 1024px) {
+          font-size: 1.6em;
+        }
+        @media screen and (min-width: 1200px) {
+        font-size: 1.8em;
+        }
+        }
     }
   }
     
 
+
+}
+h2 {@media screen and (min-width: 480px) {
+  font-size: 1em;
+  }
+  @media screen and (min-width: 600px) {
+  font-size: 1.2em;
+  }
+  @media screen and (min-width: 768px) {
+  font-size: 1.4em;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 1.6em;
+  }
+  @media screen and (min-width: 1200px) {
+  font-size: 1.8em;
+  }
+  
+}
+h3 {@media screen and (min-width: 480px) {
+  font-size: 1em;
+  }
+  @media screen and (min-width: 600px) {
+  font-size: 1.2em;
+  }
+  @media screen and (min-width: 768px) {
+  font-size: 1.4em;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 1.6em;
+  }
+  @media screen and (min-width: 1200px) {
+  font-size: 1.8em;
+  }
 
 }
 }
