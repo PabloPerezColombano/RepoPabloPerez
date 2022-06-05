@@ -43,7 +43,7 @@ header {
 
     .titulo {
       text-align: center;
-      padding: 1.5em 3em 0em 0em;
+      padding: 1.5em 1em 0em 0em;
       animation-duration: 1.5s;
       .cabecera {
         height: 8vh;
@@ -60,36 +60,46 @@ header {
       height: 100%;
       display: flex;
       justify-content: space-evenly;
-      align-items: center;
+      align-items: flex-end;
       justify-items: center;
-
+      
+      .divNav {
+        width: 100%;
+        background-color: $grisClaro;
+        display: flex;
+        align-items: flex-end;
+      justify-items: center;
+        justify-content: space-evenly;
+        .navEnlace {
+          display: inline-block;
+          padding: 0.3em;
+          margin: 0.2em;
+          text-align: center;
+          /*background-color: $grisOscuro;*/
+          opacity: 1;
+          color:$marfil;
+          /*border: outset black;
+          border-radius: 6%;*/
+          height: max-content;
+          text-decoration: none;
+          transition: transform 1s;
+  
+          &:hover {
+            color: white;
+            background-color:$grisOscuro;
+            scale: 1.15;
+          }
+        }
+      }
       .logo {
         margin: 0.2em;
-        width: 8em;
+        width: 16em;
         animation-name: animation;
         animation-duration: 1s;
         position: relative;
       }
 
-      .navEnlace {
-        display: inline-block;
-        padding: 0.3em;
-        margin: 0.2em;
-        text-align: center;
-        background-color:$grisClaro;
-        color:$marfil;
-        border: solid black;
-        border-radius: 6%;
-        height: max-content;
-        text-decoration: none;
-        transition: transform 1s;
-
-        &:hover {
-					color: white;
-					background-color:$grisOscuro;
-          scale: 1.15;
-				}
-      }
+      
       
     }
   }
