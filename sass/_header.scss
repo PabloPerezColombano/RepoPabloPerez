@@ -8,49 +8,7 @@ header {
   padding: 0px;
   background-image: url("../img/puentefoto.jpg");
   background-size: cover;
-  @keyframes animation {
-    0% {
-      top: 0%;
-      left: 0%;
-      width: 20%;
-      opacity: 0;
-    }
-    25% {
-      top: 0%;
-      left: 20%;
-      width: 25%;
-      opacity: 0.2;
-    }
-    50% {
-      top: 0%;
-      left: 40%;
-      width: 30%;
-      opacity: 0.4;
-    }
-    75% {
-      top: 0%;
-      left: 20%;
-      width: 25%;
-      opacity: 0.7;
-    }
-    100% {
-      top: 0%;
-      left: 0%;
-      width: 20%;
-      opacity: 1;
-    }
-  }
-
-  .titulo {
-    text-align: center;
-    padding: 1.5em 1em 0em 0em;
-    animation-duration: 1.5s;
-    .cabecera {
-      height: 8vh;
-      justify-content: center;
-      padding: 0em 0em;
-    }
-  }
+  
   nav {
     width: 100%;
     height: 100%;
@@ -80,19 +38,19 @@ header {
         height: max-content;
         text-decoration: none;
         transition: transform 1s;
-        @media screen and (min-width: 480px) {
+        @media screen and (min-width: $xsm) {
           margin: 0.5em;
         }
-        @media screen and (min-width: 600px) {
+        @media screen and (min-width: $sm) {
           margin: 0.2em;
         }
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: $md) {
           margin: 0.2em;
         }
-        @media screen and (min-width: 1024px) {
+        @media screen and (min-width: $lg) {
           margin: 0.2em;
         }
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: $xl) {
           margin: 0.2em;
         }
 
@@ -104,29 +62,28 @@ header {
       }
     }
     .logo {
-      margin: 0em;
+      margin: 0em 0em 1em 1em;
       width: 8em;
-      animation-name: animation;
       animation-duration: 1s;
       position: relative;
-      @media screen and (min-width: 480px) {
-        margin: 0.2em;
+      @media screen and (min-width: $xsm) {
+        margin-bottom: 0em 0em 1em 1em;
         width: 10em;
       }
-      @media screen and (min-width: 600px) {
-        margin: 0.2em;
+      @media screen and (min-width: $sm) {
+        margin-bottom: 0em 0em 1em 1em;
         width: 12em;
       }
-      @media screen and (min-width: 768px) {
-        margin: 0.2em;
+      @media screen and (min-width: $md) {
+        margin-bottom: 0em 0em 1.4em 1.4em;
         width: 15em;
       }
-      @media screen and (min-width: 1024px) {
-        margin: 0.2em;
+      @media screen and (min-width: $lg) {
+        margin-bottom: 0em 0em 1.4em 1.4em;
         width: 16em;
       }
-      @media screen and (min-width: 1200px) {
-        margin: 0.2em;
+      @media screen and (min-width: $xl) {
+        margin-bottom: 0em 0em 1.6em 1.6em;
         width: 18em;
       }
     }
