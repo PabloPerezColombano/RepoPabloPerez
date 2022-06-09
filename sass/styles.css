@@ -6,41 +6,38 @@ body header {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bolder;
 }
-body header .titulo {
-  font-size: 1.1em;
-}
-body header .titulo .cabecera {
-  font-size: 2em;
-}
-body header nav .divNav .navEnlace {
+body nav .divNav .navEnlace {
   font-size: 0.7em;
 }
-@media screen and (min-width: 480px) {
-  body header nav .divNav .navEnlace {
+@media screen and (min-width: 0px) {
+  body nav .divNav .navEnlace {
     font-size: 1em;
   }
 }
 @media screen and (min-width: 600px) {
-  body header nav .divNav .navEnlace {
+  body nav .divNav .navEnlace {
     font-size: 1em;
   }
 }
 @media screen and (min-width: 768px) {
-  body header nav .divNav .navEnlace {
+  body nav .divNav .navEnlace {
     font-size: 1.2em;
   }
 }
-@media screen and (min-width: 1024px) {
-  body header nav .divNav .navEnlace {
+@media screen and (min-width: 992px) {
+  body nav .divNav .navEnlace {
     font-size: 1.4em;
   }
 }
 @media screen and (min-width: 1200px) {
-  body header nav .divNav .navEnlace {
+  body nav .divNav .navEnlace {
     font-size: 1.6em;
   }
 }
-@media screen and (min-width: 480px) {
+body h2 {
+  font-size: 1em;
+}
+@media screen and (min-width: 0px) {
   body h2 {
     font-size: 1em;
   }
@@ -55,7 +52,7 @@ body header nav .divNav .navEnlace {
     font-size: 1.4em;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   body h2 {
     font-size: 1.6em;
   }
@@ -65,7 +62,10 @@ body header nav .divNav .navEnlace {
     font-size: 1.8em;
   }
 }
-@media screen and (min-width: 480px) {
+body h3 {
+  font-size: 1em;
+}
+@media screen and (min-width: 0px) {
   body h3 {
     font-size: 1em;
   }
@@ -80,7 +80,7 @@ body header nav .divNav .navEnlace {
     font-size: 1.4em;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   body h3 {
     font-size: 1.6em;
   }
@@ -99,41 +99,38 @@ body header {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bolder;
 }
-body header .titulo {
-  font-size: 1.1em;
-}
-body header .titulo .cabecera {
-  font-size: 2em;
-}
-body header nav .divNav .navEnlace {
+body nav .divNav .navEnlace {
   font-size: 0.7em;
 }
-@media screen and (min-width: 480px) {
-  body header nav .divNav .navEnlace {
+@media screen and (min-width: 0px) {
+  body nav .divNav .navEnlace {
     font-size: 1em;
   }
 }
 @media screen and (min-width: 600px) {
-  body header nav .divNav .navEnlace {
+  body nav .divNav .navEnlace {
     font-size: 1em;
   }
 }
 @media screen and (min-width: 768px) {
-  body header nav .divNav .navEnlace {
+  body nav .divNav .navEnlace {
     font-size: 1.2em;
   }
 }
-@media screen and (min-width: 1024px) {
-  body header nav .divNav .navEnlace {
+@media screen and (min-width: 992px) {
+  body nav .divNav .navEnlace {
     font-size: 1.4em;
   }
 }
 @media screen and (min-width: 1200px) {
-  body header nav .divNav .navEnlace {
+  body nav .divNav .navEnlace {
     font-size: 1.6em;
   }
 }
-@media screen and (min-width: 480px) {
+body h2 {
+  font-size: 1em;
+}
+@media screen and (min-width: 0px) {
   body h2 {
     font-size: 1em;
   }
@@ -148,7 +145,7 @@ body header nav .divNav .navEnlace {
     font-size: 1.4em;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   body h2 {
     font-size: 1.6em;
   }
@@ -158,7 +155,10 @@ body header nav .divNav .navEnlace {
     font-size: 1.8em;
   }
 }
-@media screen and (min-width: 480px) {
+body h3 {
+  font-size: 1em;
+}
+@media screen and (min-width: 0px) {
   body h3 {
     font-size: 1em;
   }
@@ -173,7 +173,7 @@ body header nav .divNav .navEnlace {
     font-size: 1.4em;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   body h3 {
     font-size: 1.6em;
   }
@@ -191,49 +191,45 @@ header {
   background-image: url("../img/puentefoto.jpg");
   background-size: cover;
 }
-header .titulo {
-  text-align: center;
-  padding: 1.5em 1em 0em 0em;
-}
-header .titulo .cabecera {
-  height: 8vh;
-  justify-content: center;
-  padding: 0em 0em;
-}
 header nav {
-  width: 100%;
-  height: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
+  /*Aca aplico las propiedades que declaraba el la linea 19*/
+  width: 100%;
+  height: 100%;
+  /*
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;*/
   justify-items: center;
   margin-top: 4em;
 }
 header nav .divNav {
-  width: 100%;
-  background-color: rgba(146, 158, 170, 0.4);
   display: flex;
-  align-items: flex-end;
-  justify-items: center;
   justify-content: space-evenly;
+  align-items: flex-end;
+  width: 100%;
+  background-color: rgba(146, 158, 170, 0.5);
+  /*
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;*/
+  justify-items: center;
 }
 header nav .divNav .navEnlace {
   display: inline-block;
   padding: 0.3em;
   margin: 0.05em;
   text-align: center;
-  /*background-color: $grisOscuro;*/
-  opacity: 1;
   color: rgb(245, 237, 191);
-  /*border: outset black;
-    border-radius: 6%;*/
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   text-decoration: none;
   transition: transform 1s;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   header nav .divNav .navEnlace {
     margin: 0.5em;
   }
@@ -248,7 +244,7 @@ header nav .divNav .navEnlace {
     margin: 0.2em;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   header nav .divNav .navEnlace {
     margin: 0.2em;
   }
@@ -260,7 +256,7 @@ header nav .divNav .navEnlace {
 }
 header nav .divNav .navEnlace:hover {
   color: white;
-  scale: 1.15;
+  scale: 1.18;
 }
 header nav .logo {
   margin: 0em 0em 1em 1em;
@@ -269,7 +265,7 @@ header nav .logo {
           animation-duration: 1s;
   position: relative;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   header nav .logo {
     margin-bottom: 0em 0em 1em 1em;
     width: 10em;
@@ -287,7 +283,7 @@ header nav .logo {
     width: 15em;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   header nav .logo {
     margin-bottom: 0em 0em 1.4em 1.4em;
     width: 16em;
@@ -308,41 +304,38 @@ body header {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bolder;
 }
-body header .titulo {
-  font-size: 1.1em;
-}
-body header .titulo .cabecera {
-  font-size: 2em;
-}
-body header nav .divNav .navEnlace {
+body nav .divNav .navEnlace {
   font-size: 0.7em;
 }
-@media screen and (min-width: 480px) {
-  body header nav .divNav .navEnlace {
+@media screen and (min-width: 0px) {
+  body nav .divNav .navEnlace {
     font-size: 1em;
   }
 }
 @media screen and (min-width: 600px) {
-  body header nav .divNav .navEnlace {
+  body nav .divNav .navEnlace {
     font-size: 1em;
   }
 }
 @media screen and (min-width: 768px) {
-  body header nav .divNav .navEnlace {
+  body nav .divNav .navEnlace {
     font-size: 1.2em;
   }
 }
-@media screen and (min-width: 1024px) {
-  body header nav .divNav .navEnlace {
+@media screen and (min-width: 992px) {
+  body nav .divNav .navEnlace {
     font-size: 1.4em;
   }
 }
 @media screen and (min-width: 1200px) {
-  body header nav .divNav .navEnlace {
+  body nav .divNav .navEnlace {
     font-size: 1.6em;
   }
 }
-@media screen and (min-width: 480px) {
+body h2 {
+  font-size: 1em;
+}
+@media screen and (min-width: 0px) {
   body h2 {
     font-size: 1em;
   }
@@ -357,7 +350,7 @@ body header nav .divNav .navEnlace {
     font-size: 1.4em;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   body h2 {
     font-size: 1.6em;
   }
@@ -367,7 +360,10 @@ body header nav .divNav .navEnlace {
     font-size: 1.8em;
   }
 }
-@media screen and (min-width: 480px) {
+body h3 {
+  font-size: 1em;
+}
+@media screen and (min-width: 0px) {
   body h3 {
     font-size: 1em;
   }
@@ -382,7 +378,7 @@ body header nav .divNav .navEnlace {
     font-size: 1.4em;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   body h3 {
     font-size: 1.6em;
   }
@@ -399,7 +395,7 @@ footer {
   justify-self: stretch;
   flex-direction: column;
   align-items: center;
-  border: solid black 2px;
+  border: solid black 1px;
   border-radius: 0.1em;
   background-image: url("../img/sombraObra.jpg");
 }
@@ -422,9 +418,9 @@ body {
   justify-content: center;
 }
 body p {
-  background-color: rgba(206, 199, 198, 0.7);
   text-align: center;
   padding: 1em;
+  background-color: rgba(245, 237, 191, 0.7);
 }
 body .formulario {
   display: flex;
@@ -478,7 +474,7 @@ body .fotos img {
 body .galeria {
   justify-content: stretch;
 }
-body .galeria img {
+body .galeria .imgGal {
   display: inline-block;
   justify-content: stretch;
   width: 46%;
@@ -487,17 +483,17 @@ body img {
   width: 90%;
   height: 90%;
   border: solid black 1px;
-  border-radius: 4px;
+  border-radius: 3px;
   background-color: white;
   padding: 0.4em;
   margin: 0.2em;
   box-shadow: 0.3em 0.3em 0.3em;
 }
 body .fondo {
-  background-color: rgb(230, 206, 176);
+  background-color: rgba(245, 237, 191, 0.5);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 0px) {
   * {
     margin: 0;
     padding: 0;
@@ -518,7 +514,7 @@ body .fondo {
     font-size: 16px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   body {
     font-size: 17px;
   }
@@ -527,4 +523,4 @@ body .fondo {
   body {
     font-size: 18px;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
