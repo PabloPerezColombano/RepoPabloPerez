@@ -63,23 +63,16 @@ body {
     width: 96%;
     margin: 2em 0em;
     img {
-      margin: 0em;
+      margin: 0.2em;
       display: inline-block;
       justify-content: stretch;
       width: 46%;
     }
   }
-  .galeria {
-    justify-content: stretch;
 
-    .imgGal {
-      display: inline-block;
-      justify-content: stretch;
-      width: 46%;
-    }
-  }
+ 
   img {
-    width: 90%;
+    width: 90%; 
     height: 90%;
     border: solid black 1px;
     border-radius: 3px;
@@ -87,6 +80,19 @@ body {
     padding: 0.4em;
     margin: 0.2em;
     box-shadow: 0.3em 0.3em 0.3em;
+  }
+
+  .gale {
+    display: flex;
+    padding: 5px;
+    .column {
+      flex: 25%;
+      img {
+        width: 90%;
+        height: 16%;
+        margin-top: 2em;
+      }
+    }
   }
 
   .fondo {

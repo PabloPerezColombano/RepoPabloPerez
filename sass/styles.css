@@ -1,3 +1,9 @@
+/*
+$bootstrap-sm: 576px;
+$bootstrap-md: 768px;
+$bootstrap-lg: 992px;
+$bootstrap-xl: 1200px;
+*/
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 8px;
@@ -90,7 +96,47 @@ body h3 {
     font-size: 1.8em;
   }
 }
+body footer span {
+  font-size: 1em;
+}
+@media screen and (min-width: 0px) {
+  body footer span {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 600px) {
+  body footer span {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 768px) {
+  body footer span {
+    font-size: 2.4em;
+  }
+}
+@media screen and (min-width: 992px) {
+  body footer span {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body footer span {
+    font-size: 1.8em;
+  }
+}
 
+/*
+$bootstrap-sm: 576px;
+$bootstrap-md: 768px;
+$bootstrap-lg: 992px;
+$bootstrap-xl: 1200px;
+*/
+/*
+$bootstrap-sm: 576px;
+$bootstrap-md: 768px;
+$bootstrap-lg: 992px;
+$bootstrap-xl: 1200px;
+*/
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 8px;
@@ -183,7 +229,41 @@ body h3 {
     font-size: 1.8em;
   }
 }
+body footer span {
+  font-size: 1em;
+}
+@media screen and (min-width: 0px) {
+  body footer span {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 600px) {
+  body footer span {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 768px) {
+  body footer span {
+    font-size: 2.4em;
+  }
+}
+@media screen and (min-width: 992px) {
+  body footer span {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body footer span {
+    font-size: 1.8em;
+  }
+}
 
+/*
+$bootstrap-sm: 576px;
+$bootstrap-md: 768px;
+$bootstrap-lg: 992px;
+$bootstrap-xl: 1200px;
+*/
 header {
   display: flex;
   flex-direction: column;
@@ -296,6 +376,12 @@ header nav .logo {
   }
 }
 
+/*
+$bootstrap-sm: 576px;
+$bootstrap-md: 768px;
+$bootstrap-lg: 992px;
+$bootstrap-xl: 1200px;
+*/
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 8px;
@@ -388,22 +474,89 @@ body h3 {
     font-size: 1.8em;
   }
 }
+body footer span {
+  font-size: 1em;
+}
+@media screen and (min-width: 0px) {
+  body footer span {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 600px) {
+  body footer span {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 768px) {
+  body footer span {
+    font-size: 2.4em;
+  }
+}
+@media screen and (min-width: 992px) {
+  body footer span {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body footer span {
+    font-size: 1.8em;
+  }
+}
 
+/*
+$bootstrap-sm: 576px;
+$bootstrap-md: 768px;
+$bootstrap-lg: 992px;
+$bootstrap-xl: 1200px;
+*/
 footer {
-  height: 6em;
+  width: 100%;
+  height: 10em;
   display: flex;
   justify-self: stretch;
   flex-direction: column;
   align-items: center;
-  border: solid black 1px;
-  border-radius: 0.1em;
-  background-image: url("../img/sombraObra.jpg");
+  background-color: rgb(138, 138, 213);
 }
 footer span {
   text-align: center;
   font-style: italic;
   font-weight: bold;
-  background-color: rgb(147, 142, 142);
+  background-color: rgba(245, 237, 191, 0.5);
+}
+footer .redes img {
+  width: 4%;
+  border-radius: 5px;
+  transition: transform 1s;
+}
+@media screen and (min-width: 0px) {
+  footer .redes img {
+    width: 4%;
+  }
+}
+@media screen and (min-width: 600px) {
+  footer .redes img {
+    width: 5%;
+  }
+}
+@media screen and (min-width: 768px) {
+  footer .redes img {
+    width: 7%;
+  }
+}
+@media screen and (min-width: 992px) {
+  footer .redes img {
+    width: 9%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  footer .redes img {
+    width: 11%;
+  }
+}
+footer .redes img:hover {
+  color: white;
+  scale: 1.18;
 }
 
 * {
@@ -466,15 +619,7 @@ body .fotos {
   margin: 2em 0em;
 }
 body .fotos img {
-  margin: 0em;
-  display: inline-block;
-  justify-content: stretch;
-  width: 46%;
-}
-body .galeria {
-  justify-content: stretch;
-}
-body .galeria .imgGal {
+  margin: 0.2em;
   display: inline-block;
   justify-content: stretch;
   width: 46%;
@@ -488,6 +633,18 @@ body img {
   padding: 0.4em;
   margin: 0.2em;
   box-shadow: 0.3em 0.3em 0.3em;
+}
+body .gale {
+  display: flex;
+  padding: 5px;
+}
+body .gale .column {
+  flex: 25%;
+}
+body .gale .column img {
+  width: 90%;
+  height: 16%;
+  margin-top: 2em;
 }
 body .fondo {
   background-color: rgba(245, 237, 191, 0.5);
