@@ -52,8 +52,8 @@ footer {
       
       transition: transform 1s;
       &:hover {
-        color: white;
-        scale: 1.18;
+        color: black;
+        transform: scale(1.18);
       }
     }
   }
