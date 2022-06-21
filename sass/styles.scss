@@ -22,9 +22,13 @@ body {
   }
   .formulario {
     display: flex;
-    justify-content: strech;
+    justify-content: stretch;
     text-align: center;
     flex-direction: column;
+    .botonFormulario {
+      border: solid black 2px;
+      margin-top: 4px;
+    }
   }
   ul {
     margin-right: 1.5em;
@@ -32,6 +36,9 @@ body {
       text-align: center;
       margin-right: 1em;
     }
+  }
+  .botonGaleria {
+    border: solid black 2px;
   }
   .direccion {
     display: flex;
@@ -49,30 +56,28 @@ body {
   }
   h3 {
     text-align: center;
-    background-image: url("../img/tablamadera.jpg");
+    background-image: url("../img/tablamadera2.jpg");
     background-size: cover;
     padding: 0.2em;
     margin: 0.5em 0em 0.5em 0em;
-    border-bottom: 0.3em solid rgb(5, 5, 8);
+  
   }
   .fotos {
-    display: flex;
+    width: 80%;
     justify-items: center;
-    align-items: center;
+    margin: auto;
     flex-direction: column;
-    width: 96%;
-    margin: 2em 0em;
-    img {
-      margin: 0.2em;
-      display: inline-block;
-      justify-content: stretch;
-      width: 46%;
+    display: block;
+    @media screen and (min-width: $sm) {
+      width: 85%;
+    }
+    @media screen and (min-width: $md) {
+      width: 100%;
     }
   }
 
- 
   img {
-    width: 90%; 
+    width: 90%;
     height: 90%;
     border: solid black 1px;
     border-radius: 3px;
@@ -81,7 +86,97 @@ body {
     margin: 0.2em;
     box-shadow: 0.3em 0.3em 0.3em;
   }
+  .modal img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+  .cardProy {
+justify-content: center;
+  }
+  .btnCarousel {
+    
+  }
+  .divMail {
+    display: block;
+    text-align: center;
+    .imgEmail {
+      width: 13%;
+      border: solid 1px rgba(32, 218, 63, 0.7);
+      border-radius: 6px;
+      @media screen and (min-width: $xsm) {
+        width: 13%;
+        border: solid 2px rgb(32, 218, 63, 0.7);
+        border-radius: 7px;
+      }
+      @media screen and (min-width: $sm) {
+        width: 13%;
+        border: solid 3px rgb(32, 218, 63, 0.7);
+        border-radius: 9px;
+      }
+      @media screen and (min-width: $md) {
+        width: 13%;
+        border: solid 4px rgb(32, 218, 63, 0.7);
+        border-radius: 11px;
+        @media screen and (min-width: $lg) {
+          width: 16%;
+          border: solid 5px rgb(32, 218, 63, 0.7);
+          border-radius: 13px;
+        }
+        @media screen and (min-width: $xl) {
+          width: 19%;
+          border: solid 5px rgb(32, 218, 63, 0.7);
+          border-radius: 14px;
+        }
 
+        transition: transform 1s;
+        &:hover {
+          color: black;
+          transform: scale(1.15);
+        }
+      }
+    }
+    .imgMail {
+      display: block;
+      margin: auto;
+      width: 30%;
+      border: solid 1px rgba(32, 218, 63, 0.7);
+      border-radius: 6px;
+      @media screen and (min-width: $xsm) {
+        width: 35%;
+        border: solid 2px rgb(32, 218, 63, 0.7);
+        border-radius: 7px;
+      }
+      @media screen and (min-width: $sm) {
+        width: 55%;
+        border: solid 3px rgb(32, 218, 63, 0.7);
+        border-radius: 9px;
+      }
+      @media screen and (min-width: $md) {
+        width: 65%;
+        border: solid 4px rgb(32, 218, 63, 0.7);
+        border-radius: 11px;
+        @media screen and (min-width: $lg) {
+          width: 70%;
+          border: solid 5px rgb(32, 218, 63, 0.7);
+          border-radius: 13px;
+        }
+        @media screen and (min-width: $xl) {
+          width: 70%;
+          border: solid 5px rgb(32, 218, 63, 0.7);
+          border-radius: 14px;
+        }
+
+        transition: transform 1s;
+        &:hover {
+          color: black;
+          transform: scale(1.15);
+        }
+      }
+    }
+  }
+
+  /*
   .gale {
     display: flex;
     padding: 5px;
@@ -93,7 +188,7 @@ body {
         margin-top: 2em;
       }
     }
-  }
+  }*/
 
   .fondo {
     background-color: $colorFTraslucido;

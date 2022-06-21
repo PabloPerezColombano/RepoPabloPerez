@@ -40,36 +40,81 @@
         <h2>Proyectos realizados</h2>
 
         <ol>
-          <li>Puente Garzon</li>
-          <div>
-            <img
-              class="fotoGrande"
-              src="../img/puentefoto.jpg"
-              alt="Foto puente Garzon"
-            />
-          </div>
-          <p>
-            La laguna Garzón forma parte de un conjunto de masas de agua
-            ecológicamente vulnerables dispersas a lo largo de la costa
-            uruguaya. El Ministerio de Transporte había mostrado interés hacía
-            tiempo en construir un puente sobre la laguna en el punto en el que
-            se une con la costa e interrumpe la Ruta Nacional 10. Antes, la
-            laguna solo se podía cruzar en balsa motorizada. El diseño del
-            puente de forma circular de 202 metros se sitúa sobre el frágil
-            ecosistema, aunque sin perturbarlo, reduce la velocidad del tráfico
-            por su forma y crea un punto de interés apto para los peatones.
-            Inaugurado en diciembre de 2015, el puente posee 16 pilares de
-            hormigón redondos, colocados cada 20 metros, que soportan dos rampas
-            y una rotonda central que cruza la laguna. Las pasarelas peatonales,
-            que quedan a cada lado de los carriles divididos, permiten acceder
-            al espacio central del puente y a su perímetro, donde los visitantes
-            pueden sentarse, pescar y apreciar el panorama.
-          </p>
-          <div class="fotos">
-            <img src="../img/Puentefondo.jpg" alt="Puente Garzon" />
-            <img src="../img/Puentefondo2.jpg" alt="Puente Garzon" />
-            <img src="../img/Puente noche.jpg" alt="Puente Garzon" />
-          </div>
+          <li id="puenteGarzon"><strong>Puente Garzon</strong></li>
+         
+          
+          <div class="container-fluid">
+            <section class="cardProy row">
+                <article class="col-md-8 col-lg-8 col-xxl-8" id="puente">
+                    <div class="card text-center bg-light text-dark h-100">
+                        <h3 class="card-header">Puente Garzon</h3>
+                        <img src="../img/puentefoto.jpg" alt="Puente" data-bs-toggle="modal" data-bs-target="#modalPuente" />
+                        <div class="card-body">
+                            <p class="card-text">Haga click en la imagen</p>
+                        </div>
+                        
+                    </div>
+                </article>
+              </section>
+    
+              <section class="modales">
+                  <div class="modal" id="modalPuente" tabindex="-1">
+                      <div class="modal-dialog modal-lg modal-xl modal-dialog-centered modal-dialog-scrollable">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <div id="carouselPuente" class="carousel slide" data-bs-ride="carousel">
+                                      <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                              <img src="../img/puentefoto.jpg" class="d-block" alt="Puente1">
+                                          </div>
+                                          <div class="carousel-item">
+                                              <img src="../img/Puentefondo.jpg" class="d-block" alt="Puente2">
+                                          </div>
+                                          <div class="carousel-item">
+                                              <img src="../img/Puentefondo2.jpg" class="d-block" alt="Puente3">
+                                          </div>
+                                          <div class="carousel-item">
+                                              <img src="../img/Puente noche.jpg" class="d-block" alt="Puente4">
+                                          </div>
+                                      </div>
+                                      <button class="btnCarousel carousel-control-prev" type="button" data-bs-target="#carouselPuente"
+                                          data-bs-slide=" prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Anterior</span>
+                                      </button>
+                                      <button class="btnCarousel carousel-control-next" type="button" data-bs-target="#carouselPuente"
+                                          data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Siguiente</span>
+                                      </button>
+                                  </div>
+                              </div>
+      
+                          </div>
+                      </div>
+                  </div>
+                </section>
+              </div>
+              <p id="puenteGarzon">
+                La laguna Garzón forma parte de un conjunto de masas de agua
+                ecológicamente vulnerables dispersas a lo largo de la costa
+                uruguaya. El Ministerio de Transporte había mostrado interés hacía
+                tiempo en construir un puente sobre la laguna en el punto en el que
+                se une con la costa e interrumpe la Ruta Nacional 10. Antes, la
+                laguna solo se podía cruzar en balsa motorizada. El diseño del
+                puente de forma circular de 202 metros se sitúa sobre el frágil
+                ecosistema, aunque sin perturbarlo, reduce la velocidad del tráfico
+                por su forma y crea un punto de interés apto para los peatones.
+                Inaugurado en diciembre de 2015, el puente posee 16 pilares de
+                hormigón redondos, colocados cada 20 metros, que soportan dos rampas
+                y una rotonda central que cruza la laguna. Las pasarelas peatonales,
+                que quedan a cada lado de los carriles divididos, permiten acceder
+                al espacio central del puente y a su perímetro, donde los visitantes
+                pueden sentarse, pescar y apreciar el panorama.
+              </p>
           <p>
             El puente fue cuidadosamente diseñado para proteger el ecosistema
             existente, con una altura que permite la libre circulación de barcos
@@ -82,67 +127,205 @@
             observación de aves y la recolección de almejas, y se encuentra
             rodeado de vistas panorámicas del paisaje.
           </p>
-          <li>Edificio Galicia</li>
-          <div class="fotos">
-            <img src="../img/Galicia1.jpg" alt="Edificio Galicia" />
-            <img src="../img/Galicia2.jpg" alt="Edificio Galicia" />
-          </div>
-          <p>
-            En marzo de 2021 comenzaron los trabajos de construcción del
-            Edificio Galicia ubicado en calle Galicia entre Magallanes y Minas
-            (Montevideo, para el MVOT Se trata de un edificio con 46 unidades
-            habitacionales desarrolladas en planta baja más 5 niveles y en el
-            Subsuelo se ubican 23 cocheras, proyectado por el Estudio CZG. Los
-            apartamentos se implantan en dos bloques tipo “C” en torno a un
-            patio cada una. Entre ellas se configura un patio central ajardinado
-            al que se proyectan las viviendas y el espacio exterior del salón de
-            usos múltiples. Las viviendas del programa se conforman de la
-            siguiente forma: 5 unidades de un dormitorio, 29 de dos dormitorios,
-            mientras que 12 son de tres dormitorios ,sumando un salón de usos
-            múltiples.
-          </p>
+          <li id="galicia"><strong>Edificio Galicia</strong></li>
+          
+          
+          <div class="container-fluid">
+            <section class="cardProy row">
+              <article class="col-md-8 col-lg-6 col-xxl-6" id="edificio">
+                <div class="card text-center bg-light text-dark h-100">
+                    <h3 class="card-header">Edificio Galicia</h3>
+                    <img src="../img/Galicia1.jpg" alt="Edificio" data-bs-toggle="modal" data-bs-target="#modalEdificio" />
 
-          <li>Deposito Conaprole de Pando</li>
-          <div class="fotos">
-            <img src="../img/Conaprole1.jpg" alt="Galpon Conaprole" />
-            <img src="../img/Conaprole2.jpg" alt="Galpon Conaprole" />
-            <img src="../img/Conaprole3.jpg" alt="Galpon Conaprole" />
-          </div>
-          <p>
-            El proyecto comenzo con la construccion de un deposito de 5300 m2 y
-            oficinas situados en un predio de 9000 m2. Fue necesario el
-            movimientos de suelo, construcciones en hormigón armado, suministro
-            y montaje de estructura metálica de alma llena para nave y
-            construcción de oficinas con estructura metálica y Steel Deck. La
-            construcción de pavimentos de hormigón y obras complementarias en
-            los alrededores fue ejecutada en la segunda etapa de la obra a fines
-            del 2016.
-          </p>
+                    <div class="card-body">
+                        <p class="card-text">Haga click en la imagen</p>
+                    </div>
+                    
+                </div>
+            </article>
+          </section>
+          <div class="modal" id="modalEdificio" tabindex="-1">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselEdificio" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../img/Galicia1.jpg" class="d-block" alt="Edificio1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/Galicia2.jpg" class="d-block" alt="Edificio2">
+                                </div>
+                            </div>
+                            <button class="btnCarousel carousel-control-prev" type="button" data-bs-target="#carousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="btnCarousel carousel-control-next" type="button" data-bs-target="#carouselEdificio"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                    </div>
 
-          <li>Complejo Villagio Riviera</li>
-          <div class="fotos">
-            <img src="../img/villaggio2.jpg" alt="Complejo Villaggio Riviera" />
-            <img src="../img/villaggio1.jpg" alt="Complejo Villaggio Riviera" />
-            <img src="../img/villagio3.jpg" alt="Complejo Villaggio Riviera" />
-          </div>
+                </div>
+            </div>
+        </div>
+        <p id="galicia">
+          En marzo de 2021 comenzaron los trabajos de construcción del
+          Edificio Galicia ubicado en calle Galicia entre Magallanes y Minas
+          (Montevideo, para el MVOT Se trata de un edificio con 46 unidades
+          habitacionales desarrolladas en planta baja más 5 niveles y en el
+          Subsuelo se ubican 23 cocheras, proyectado por el Estudio CZG. Los
+          apartamentos se implantan en dos bloques tipo “C” en torno a un
+          patio cada una. Entre ellas se configura un patio central ajardinado
+          al que se proyectan las viviendas y el espacio exterior del salón de
+          usos múltiples. Las viviendas del programa se conforman de la
+          siguiente forma: 5 unidades de un dormitorio, 29 de dos dormitorios,
+          mientras que 12 son de tres dormitorios ,sumando un salón de usos
+          múltiples.
+        </p>
 
-          <p>
-            La obra del complejo Villaggio Riviera es un emprendimiento de
-            Artigas-Group. La componen 8 edificaciones distribuidas en una
-            superficie de 8543 m2 que además, cuenta con un área enjardinada de
-            800 m2. Se encuentra ubicada en la esquina de las calles Avda.
-            Agraciada y Enrique Turini, a quinientos metros del parque urbano
-            del Prado. El proyecto posee 69 unidades de vivienda: 23 unidades de
-            un dormitorio, 40 de dos dormitorios y 6 de tres dormitorios. La
-            unidades de 2 y 3 dormitorio tienen parrillero individual dentro de
-            la terraza principal y las de 1 dormitorio en el sector noreste.
-          </p>
+          <li><strong>Deposito Conaprole de Pando</strong></li>
+         
+         
+          <div class="container-fluid">
+            <section class="cardProy row">
+              <article class="col-md-8 col-lg-6 col-xxl-6" id="galpon">
+                <div class="card text-center bg-light text-dark h-100">
+                    <h3 class="card-header">Galpon Conaprole</h3>
+                    <img src="../img/Conaprole1.jpg" alt="Galpon Conaprole" data-bs-toggle="modal" data-bs-target="#modalGalpon">
+
+                    <div class="card-body">
+                        <p class="card-text">Haga click en la imagen</p>
+                    </div>
+                    
+                </div>
+            </article>
+        </section>
+
+          <div class="modal" id="modalGalpon" tabindex="-1">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselGalpon" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../img/Conaprole1.jpg" class="d-block" alt="Galpon1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/Conaprole2.jpg" class="d-block" alt="Galpon2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/Conaprole3.jpg" class="d-block" alt="Galpon3">
+                                </div>
+                            </div>
+                            <button class="btnCarousel carousel-control-prev" type="button" data-bs-target="#carouselGalpon"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="btnCarousel carousel-control-next" type="button" data-bs-target="#carouselGalpon"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      </div>
+      <p id="galponConaprole">
+        El proyecto comenzo con la construccion de un deposito de 5300 m2 y
+        oficinas situados en un predio de 9000 m2. Fue necesario el
+        movimientos de suelo, construcciones en hormigón armado, suministro
+        y montaje de estructura metálica de alma llena para nave y
+        construcción de oficinas con estructura metálica y Steel Deck. La
+        construcción de pavimentos de hormigón y obras complementarias en
+        los alrededores fue ejecutada en la segunda etapa de la obra a fines
+        del 2016.
+      </p>
+
+
+          <li><strong>Complejo Villagio Riviera</strong></li>
+          
+
+          
+          <div class="container-fluid">
+            <section class="cardProy row">
+              <article class="col-md-8 col-lg-6 col-xxl-6" id="villagio">
+                <div class="card text-center bg-light text-dark h-100">
+                  <h3 class="card-header">Complejo Villagio</h3>
+                    <img src="../img/villaggio1.jpg" alt="Complejo Villagio" data-bs-toggle="modal" data-bs-target="#modalComplejo">
+                      <div class="card-body">
+                        <p class="card-text">Haga click en la imagen</p>
+                      </div>
+                     
+                </div>
+             </article>
+            </section>
+              <div class="modal" id="modalComplejo" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div id="carouselComplejo" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../img/villaggio1.jpg" class="d-block" alt="Complejo1">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../img/villaggio2.jpg" class="d-block" alt="Complejo2">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../img/villagio3.jpg" class="d-block" alt="Complejo3">
+                          </div>
+                        </div>
+                          <button class="btnCarousel carousel-control-prev" type="button" data-bs-target="#carouselComplejo" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                          </button>
+                          <button class="btnCarousel carousel-control-next" type="button" data-bs-target="#carouselComplejo" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
         </ol>
       
     </main>
   </div>
 </div>
 </div>
+<p id="complejoVillagio">
+  La obra del complejo Villaggio Riviera es un emprendimiento de
+  Artigas-Group. La componen 8 edificaciones distribuidas en una
+  superficie de 8543 m2 que además, cuenta con un área enjardinada de
+  800 m2. Se encuentra ubicada en la esquina de las calles Avda.
+  Agraciada y Enrique Turini, a quinientos metros del parque urbano
+  del Prado. El proyecto posee 69 unidades de vivienda: 23 unidades de
+  un dormitorio, 40 de dos dormitorios y 6 de tres dormitorios. La
+  unidades de 2 y 3 dormitorio tienen parrillero individual dentro de
+  la terraza principal y las de 1 dormitorio en el sector noreste.
+</p>
+
 
     <footer>
       <span>

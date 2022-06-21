@@ -32,7 +32,6 @@
                 </div>
             </nav>
         </header>
-    </div>
     <div class="container">
       <div class="row">
         
@@ -53,11 +52,11 @@
               de 450.000 m2 construidos en más de 130 obras en distintos puntos del
               país.
             </p>
-            <div class="fotos">
-            <img src="./img/ingenieros.jpg" alt="Ingenieros" />
-            <img src="./img/mujerConstruccion.jpg" alt="Arquitecta" />
-            <img src="./img/seguridadLaboral.jpg" alt="Obrero con Proteccion" />
-            </div>
+            
+                <a href="./img/ingenieros.jpg"> <img class="fotos" src="./img/ingenieros.jpg" alt="Ingenieros" /></a>
+                
+                
+            
             <h2>Nuestro trabajo</h2>
             <p class="lectura">
               Nuestro compromiso se sostiene en tres pilares fundamentales: el
@@ -65,7 +64,11 @@
               y los precios competitivos. Trabajamos con seriedad buscando lo mejor
               para la obra, ajustándonos a las necesidades del cliente, las normas
               del buen construir y las buenas prácticas de seguridad durante la
-              ejecución de los trabajos. Confiamos que las propuestas que
+              ejecución de los trabajos. 
+            </p>
+            <a href="./img/mujerConstruccion.jpg"><img class="fotos" src="./img/mujerConstruccion.jpg" alt="Arquitecta" /></a>
+              <p class="lectura">
+              Confiamos que las propuestas que
               presentamos a clientes y potenciales clientes, serán analizadas
               teniendo en cuenta no solamente el precio, sino que también se
               contemple la calidad y los plazos de entrega que influirán en un
@@ -76,92 +79,262 @@
               trabajadores se sientan integrados a un equipo, en un ambiente de
               trabajo confiable.
             </p>
+            <a href="./img/seguridadLaboral.jpg"><img class="fotos" src="./img/seguridadLaboral.jpg" alt="Obrero con Proteccion" /></a>
         </main>
         </div>
         <div class="d-sm-block col-md-6 col-xl-6 fondo">
           <h2>
             Galeria de fotos de obras realizadas
           </h2> 
-        <div class="gale">
-<div class="column">
-          <img src="./img/Puentefondo2.jpg" alt="Foto puente"/>
-          <img src="./img/Puentefondo.jpg" alt="Foto puente"/>
-          <img src="./img/puentefoto.jpg" alt="Foto puente"/>
-          <img src="./img/Puente noche.jpg" alt="Foto puente"/>
-          <img src="./img/Galicia2.jpg" alt="Foto edificio"/>
-          <img src="./img/Galicia1.jpg" alt="Foto edificio"/>
-        </div>
-        <div class="column">
-          <img src="./img/Conaprole3.jpg" alt="Foto galpon"/>
-          <img src="./img/Conaprole1.jpg" alt="Foto galpon"/>
-          <img src="./img/Conaprole2.jpg" alt="Foto galpon"/>
-          <img src="./img/villagio3.jpg" alt="Foto complejo habitacional"/>
-          <img src="./img/villaggio1.jpg" alt="Foto complejo habitacional"/>
-          <img src="./img/villaggio2.jpg" alt="Foto complejo habitacional"/>
-        </div>  
-        
-        </div>
+          <div class="container">
+            <section class="row">
+                <article class="col-md-block col-lg-block col-xxl-block" id="puente">
+                    <div class="card text-center bg-light text-dark h-100">
+                        <h3 class="card-header">Puente Garzon</h3>
+                        <img src="./img/Puentefondo2.jpg" alt="Puente" data-bs-toggle="modal" data-bs-target="#modalPuente" />
+                        <div class="card-body">
+                            <p class="card-text">Puente Garzon, ruta 10.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="../pages/Proyectos realizados.html#puenteGarzon" class="botonGaleria btn btn-info btn-lg">Descripcion de obra</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-block col-lg-block col-xxl-block" id="edificio">
+                    <div class="card text-center bg-light text-dark h-100">
+                        <h3 class="card-header">Edificio Galicia</h3>
+                        <img src="./img/Galicia1.jpg" alt="Edificio" data-bs-toggle="modal" data-bs-target="#modalEdificio" />
+    
+                        <div class="card-body">
+                            <p class="card-text">Edificio Galicia.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="../pages/Proyectos realizados.html#galicia" class="botonGaleria btn btn-info btn-lg">Descripcion de obra</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-block col-lg-block col-xxl-block" id="galpon">
+                    <div class="card text-center bg-light text-dark h-100">
+                        <h3 class="card-header">Galpon Conaprole</h3>
+                        <img src="./img/Conaprole1.jpg" alt="Galpon Conaprole" data-bs-toggle="modal" data-bs-target="#modalGalpon">
+    
+                        <div class="card-body">
+                            <p class="card-text">Galpon Conaprole</p>
+                        </div>
+                        <div class="card-footer">
+    
+                            <a href="../pages/Proyectos realizados.html#galponConaprole" class="botonGaleria btn btn-info btn-lg">Descripcion de obra</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-md-block col-lg-block col-xxl-block" id="villagio">
+                    <div class="card text-center bg-light text-dark h-100">
+                        <h3 class="card-header">Complejo Villagio</h3>
+                        <img src="./img/villaggio1.jpg" alt="campera" data-bs-toggle="modal" data-bs-target="#modalComplejo">
+    
+                        <div class="card-body">
+                            <p class="card-text">Complejo habitacional Villagio.</p>
+                        </div>
+                        <div class="card-footer">
+    
+                            <a href="../pages/Proyectos realizados.html#complejoVillagio" class="botonGaleria btn btn-info btn-lg">Descripcion de obra</a>
+                        </div>
+                    </div>
+                </article>
+                
+                
+            </section>
+    
+            <section class="modales">
+                <div class="modal" id="modalPuente" tabindex="-1">
+                    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselPuente" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./img/Puentefondo2.jpg" class="d-block" alt="Puente1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./img/Puentefondo.jpg" class="d-block" alt="Puente2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./img/puentefoto.jpg" class="d-block" alt="Puente3">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./img/Puente noche.jpg" class="d-block" alt="Puente4">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPuente"
+                                        data-bs-slide=" prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Anterior</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPuente"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Siguiente</span>
+                                    </button>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="modalEdificio" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselEdificio" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./img/Galicia1.jpg" class="d-block" alt="Edificio1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./img/Galicia2.jpg" class="d-block" alt="Edificio2">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Anterior</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselEdificio"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Siguiente</span>
+                                    </button>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="modalGalpon" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselGalpon" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./img/Conaprole1.jpg" class="d-block" alt="Galpon1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./img/Conaprole2.jpg" class="d-block" alt="Galpon2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./img/Conaprole3.jpg" class="d-block" alt="Galpon3">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselGalpon"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Anterior</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselGalpon"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Siguiente</span>
+                                    </button>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="modalComplejo" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselComplejo" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./img/villaggio1.jpg" class="d-block" alt="Complejo1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./img/villaggio2.jpg" class="d-block" alt="Complejo2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./img/villagio3.jpg" class="d-block" alt="Complejo3">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselComplejo"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Anterior</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselComplejo"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Siguiente</span>
+                                    </button>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+                
+            
+            </section>
+          </div>
         </div>
 
 
         <div class="col-sm-block col-md-block col-xl-block fondo"> 
           <!--Distribuyo en contenido del container y agrego clase para usar en las demas paginas-->
           <h2>Contacto</h2>
-        
             <form class="formulario" action="" method="" enctype="">
               <div class="ingresarTexto">
                 <label for="Datos">Completa los datos</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
-                <input
+                <input class="botonFormulario" type="text" id="nombre" name="nombre" placeholder="Nombre" />
+                <input class="botonFormulario" 
                   type="text"
                   id="apellido"
                   name="apellido"
                   placeholder="Apellido"
                 />
-                <input type="email" id="mail" placeholder="mail@mail.com" />
+                <input class="botonFormulario" type="email" id="mail" placeholder="mail@mail.com" />
               </div>
               <div class="select">
-                <select name="Ubicacion" id="">
+                <select class="botonFormulario btn btn bg-success" name="Ubicacion" id="">
                   <option value="Interior">Interior Uruguay</option>
                   <option value="Montevideo">Montevideo Uruguay</option>
                   <option value="Exterior">Exterior</option>
                 </select>
-                <input class="limpiarDatos" type="submit" value="Enviar datos" />
-                <input type="reset" value="Limpiar datos" />
+                <input class="botonFormulario btn btn bg-success" type="submit" value="Enviar datos" />
+                <input class="botonFormulario btn btn bg-warning" type="reset" value="Limpiar datos" />
               </div>
             </form>
-            <p class="bg-primary text-white">
-               <!--Cambio color de fondo y de texto-->
-                Estamos situados en La Blanqueada, calle Gral. Urquiza 3040,
-                Departamento de Montevideo
-              </p>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16494.514408695333!2d-56.161585911536655!3d-34.883195178317315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80f7a3aff79f%3A0x27a3bdc8c9891f00!2sGral.%20Urquiza%203040%2C%2011600%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1651682281406!5m2!1ses-419!2suy"
-                width="200vh"
-                height="200vh"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-
-        <div class="direccion">
-          <p>
-                <span>Telefono de Contacto 44356789.</span>
-                <span>Direccion. J.J. Martinez 170.</span> 
-                <span> Rocha capital, Uruguay</span>
-              </p>
-            </div>
-                <a class="mailContacto" href="Genaro.construcciones@gmail.com">Correo electronico</a>
-        </div>
-    
+          
+            <span>Telefono de Contacto 44356789.</span>
+          <span>Direccion. J.J. Martinez 170.</span>
+          <span> Rocha capital, Uruguay</span>
+          <div class="divMail">
+          <a title="Correo electronico" class="mailContacto" href="Genaro.construcciones@gmail.com"
+            > <img class="imgEmail" src="../img/correoelectronico.jpg" alt="Icono correo electronico" /></a>
+          </div>
+      </div>
+    </div>
      
           
           
         <footer>
-          <span>
+          <span><em>
             Genaro Construcciones, tus sueños, nuestro compromiso. Rocha, Uruguay.
-          </span>
+        </em></span>
           <div class="redes">
            <a title="Whats up" href="http://www.whatsup.com"> <img src="./img/whatsup.jpg" alt="Icono Whats up" /></a>
            <a title="Facebook" href="http://www.facebook.com"> <img src="./img/facebook.jpg" alt="Icono Facebook"/></a>
@@ -173,7 +346,6 @@
           </div>
           
         </footer>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!--Link de javascript-->
 </body>

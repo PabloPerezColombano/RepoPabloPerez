@@ -41,38 +41,36 @@
 
            <div class="col-sm-6 col-md-3 col-xl-block fondo">
             <h2>Contacto</h2>
-            <form class="formularioContacto" action="" method="" enctype="">
-            <div class="ingresarTexto">
-              <label for="Datos">Completa los datos</label>
-              <input
-                type="text"
-                id="nombre"
-                name="nombre"
-                placeholder="Nombre"
-              />
-              <input
-                type="text"
-                id="apellido"
-                name="apellido"
-                placeholder="Apellido"
-              />
-              <input type="email" id="mail" placeholder="mail@mail.com" />
-            </div>
-            <div class="select">
-              <select name="Ubicacion" id="">
-                <option value="Interior">Interior Uruguay</option>
-                <option value="Montevideo">Montevideo Uruguay</option>
-                <option value="Exterior">Exterior</option>
-              </select>
-              <input class="limpiarDatos " type="submit" value="Enviar datos" />
-              <input type="reset" value="Limpiar datos" />
-            </div>
-          </form>
-          <a class="mailContacto " href="Genaro.construcciones@gmail.com"
-            >Correo electronico</a>
+            <form class="formulario" action="" method="" enctype="">
+              <div class="ingresarTexto">
+                <label for="Datos">Completa los datos</label>
+                <input class="botonFormulario" type="text" id="nombre" name="nombre" placeholder="Nombre" />
+                <input class="botonFormulario" 
+                  type="text"
+                  id="apellido"
+                  name="apellido"
+                  placeholder="Apellido"
+                />
+                <input class="botonFormulario" type="email" id="mail" placeholder="mail@mail.com" />
+              </div>
+              <div class="select">
+                <select class="botonFormulario btn btn bg-success" name="Ubicacion" id="">
+                  <option value="Interior">Interior Uruguay</option>
+                  <option value="Montevideo">Montevideo Uruguay</option>
+                  <option value="Exterior">Exterior</option>
+                </select>
+                <input class="botonFormulario btn btn bg-success" type="submit" value="Enviar datos" />
+                <input class="botonFormulario btn btn bg-warning" type="reset" value="Limpiar datos" />
+              </div>
+            </form>
+          
             <span>Telefono de Contacto 44356789.</span>
           <span>Direccion. J.J. Martinez 170.</span>
           <span> Rocha capital, Uruguay</span>
+          <div class="divMail">
+          <a title="Whats up" class="mailContacto" href="Genaro.construcciones@gmail.com"
+            > <img class="imgMail" src="../img/correoelectronico.jpg" alt="Icono correo electronico" /></a>
+          </div>
         </div>
 
       
